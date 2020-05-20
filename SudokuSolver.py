@@ -20,7 +20,7 @@ def display(board):
         print()
 
 def solve(board):
-    return True
+    return False
 
 def main():
     print("Original Sudoku Puzzles: ")
