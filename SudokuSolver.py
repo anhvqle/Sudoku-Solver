@@ -19,4 +19,17 @@ def display(board):
             print(str(board[i][j]) + " ", end="")
         print()
 
-display(board)
+def solve(board):
+    return True
+
+def main():
+    print("Original Sudoku Puzzles: ")
+    display(board)
+    #solve(board)
+    if(solve(board)):
+        print("Solution for the above Sudoku puzzles")
+        display(board)
+    else:
+        print("Unable to solve the Sudoku puzzles")
+
+main()
